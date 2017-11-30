@@ -1,0 +1,16 @@
+.tmp
+.git
+node_modules
+ext-sample/.sencha
+ext-sample/build
+ext-sample/ext
+ext-sample/sass
+.settings
+*.log
+*.iml
+.idea
+*.ipr
+*.iws
+build
+out
+/index.html

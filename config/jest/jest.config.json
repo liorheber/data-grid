@@ -1,0 +1,29 @@
+{
+	"verbose": true,
+	"setupFiles": [
+		"./config/enzyme/enzyme_setup"
+	],
+	"testResultsProcessor": "jest-junit",
+	"rootDir": "../../",
+	"moduleFileExtensions": [
+		"js",
+		"jsx"
+	],
+	"moduleDirectories": [
+		"node_modules",
+		"bower_components",
+		"shared"
+	],
+	"moduleNameMapper": {
+		"\\.(css|scss)$": "identity-obj-proxy"
+	},
+	"collectCoverageFrom" : [
+		"**/src/**/*.{js,jsx}",
+		"!**/buildscripts/**",
+		"!**/config/**",
+		"!**/node_modules/**",
+		"!**/resources/**",
+		"!**/stories/**",
+		"!**/coverage/**"
+	]
+}
