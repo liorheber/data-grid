@@ -46,6 +46,10 @@
     "webpack-merge": "^4.1.0"
   },
   "dependencies": {
+    "classnames": "^2.2.5",
+    "fixed-data-table-2": "^0.8.6",
+    "kenshoo-shared": "^1.0.807",
+    "material-ui": "^1.0.0-beta.22",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-redux": "^5.0.6",

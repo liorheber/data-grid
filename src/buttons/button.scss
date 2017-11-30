@@ -1,0 +1,29 @@
+.header_icon {
+  margin: 0 4px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: opacity 0.15s ease-in-out;
+}
+
+.large_icon {
+  font-size: 18px;
+}
+
+.constant_button  {
+  @extend .header_icon;
+  opacity: 1;
+}
+
+.header_button {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+
+.with_margin {
+  margin: 0 8px 0 12px;
+}
+
+.active {
+  opacity: 1 !important;
+}

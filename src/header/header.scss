@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  flex: 1;
+  padding: 0 9px 0 12px;
+  user-select: none;
+  overflow: hidden;
+  justify-content: space-between;
+  height: 52px;
+  align-items: center;
+  line-height: 18px;
+  background: white;
+}

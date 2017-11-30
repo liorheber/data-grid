@@ -1,0 +1,15 @@
+.image_wrapper {
+  display: flex;
+  height: 48px;
+  width: 80px;
+  border: 1px solid #dddddd;
+  background: #ffffff;
+}
+
+.image {
+  margin: auto;
+  height: auto;
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
+}
